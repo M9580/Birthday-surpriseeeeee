@@ -1,1 +1,106 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
+body{
+background:linear-gradient(135deg,#ffd6e7,#ffeef6);
+color:#ff2d75;
+text-align:center;
+padding:20px;
+}
+
+#password-screen{
+margin-top:100px;
+}
+
+#password-screen h2{
+font-size:30px;
+margin-bottom:15px;
+}
+
+input{
+padding:12px;
+width:220px;
+border-radius:12px;
+border:2px solid pink;
+outline:none;
+text-align:center;
+margin-top:15px;
+}
+
+button{
+margin-top:15px;
+padding:12px 24px;
+border:none;
+border-radius:30px;
+background:#ff4f93;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+background:#ff2d75;
+transform:scale(1.05);
+}
+
+h1{
+font-family:'Pacifico',cursive;
+font-size:52px;
+margin-top:20px;
+}
+
+h2{
+margin-top:10px;
+}
+
+.date{
+font-size:20px;
+margin:20px 0;
+}
+
+.message{
+max-width:700px;
+margin:20px auto;
+font-size:18px;
+line-height:1.8;
+}
+
+.song{
+display:inline-block;
+margin:25px;
+padding:15px 30px;
+background:#ff4f93;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-size:18px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.gallery img{
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+#wrong{
+color:red;
+margin-top:15px;
+font-weight:bold;
+}
